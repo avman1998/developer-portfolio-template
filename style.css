@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background-color: black;
+}
+header nav {
+  padding: 30px 100px 30px 60px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 50px;
+}
+header nav ul li:nth-child(1) {
+  display: flex;
+  gap: 5px;
+}
+header nav ul li:nth-child(5) {
+  display: flex;
+  gap: 5px;
+}
+header .image-content {
+  display: flex;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+header .image-content div {
+  flex-grow: 1;
+}
+header .image-content div img {
+  width: 550px;
+  margin-top: -50px;
+  margin-left: 150px;
+}
+header .image-content .content {
+  margin-top: 130px;
+  margin-left: -280px;
+}
+header .image-content .content h2 {
+  color: #c91b28;
+  margin-bottom: 10px;
+}
+header .image-content .content h1 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 500%;
+}
+header .image-content .content p {
+  color: white;
+  margin-bottom: 20px;
+}
+header .image-content .content button {
+  background-color: #c91b28;
+  padding: 10px 15px;
+  color: white;
+}
+.experience {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  z-index: -2;
+  background-color: #000000;
+}
+.experience .half-bg {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #181818;
+  z-index: -1;
+}
+.experience .skills {
+  padding: 80px 230px 40px 230px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.experience .skills .skill {
+  text-align: left;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 35px;
+}
+.experience .skills .skill:nth-child(2) {
+  background-color: #c91b28;
+}
+.experience .skills .skill h3,
+p {
+  margin-bottom: 10px;
+}
+.experience .skills .skill h4 {
+  margin-bottom: 10px;
+}
+.experience .skills .skill:nth-child(1) h4,
+.skill:nth-child(3) h4 {
+  color: #c91b28;
+}
+
+.experience .actual-exp {
+  display: flex;
+  padding: 80px 230px 40px 230px;
+  gap: 20px;
+  /* justify-content: space-evenly; */
+  /* margin-bottom: 20px; */
+}
+.experience .actual-exp .years {
+  text-align: center;
+  /* background-color: pink; */
+  padding: 70px 50px 50px 50px;
+  margin-left: 80px;
+}
+.experience .actual-exp .years h1 {
+  font-size: 550%;
+  font-weight: bold;
+  color: #c91b28;
+}
+.experience .actual-exp .years h3 {
+  color: white;
+}
+.experience .actual-exp .box-exps {
+  display: flex;
+  margin-left: 40px;
+  gap: 90px;
+  /* justify-content: space-between; */
+}
+.experience .actual-exp .box-exps .exps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  /* justify-content: space-between; */
+}
+.experience .actual-exp .box-exps .exps div {
+  padding: 45px;
+  background-color: #1e1e1e;
+}
+.experience .actual-exp .box-exps .exps div h2 {
+  color: #c91b28;
+}
+.experience .actual-exp .box-exps .exps div p {
+  color: white;
+}
+.projects {
+  padding: 80px 230px 40px 230px;
+  /* background-color: white; */
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.projects .head {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.projects .head .content h2 {
+  margin-bottom: 10px;
+}
+.projects .head div button {
+  background-color: #c91b28;
+  color: white;
+  padding: 10px 25px;
+  margin-left: 205px;
+  border: none;
+}
+.projects .projects-desc {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px 230px 40px 230px;
+}
+.projects .projects-desc .desc .image-div {
+  padding: 70px 20px;
+  background-color: #1e1e1e;
+  margin-bottom: 10px;
+}
+.projects .projects-desc .desc div img {
+  width: 375px;
+  height: 225px;
+}
+.projects .projects-desc .desc h2 {
+  margin-bottom: 5px;
+  color: white;
+}
+.projects .projects-desc .desc h4 {
+  margin-bottom: 10px;
+  color: #c91b28;
+}
+.contact-me {
+  background-color: #000000;
+  padding: 40px 300px 80px 300px;
+}
+.contact-me .contact-content {
+  padding: 60px 10px;
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-me .contact-content button {
+  text-align: center;
+  background-color: #c91b28;
+  border: none;
+  padding: 10px 30px;
+  /* height: 30px; */
+  color: white;
+  font-weight: bold;
+}
+.nav-foot {
+  display: flex;
+  gap: 35px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  padding-bottom: 30px;
+}
+footer {
+  display: flex;
+  gap: 275px;
+  background-color: #1e1e1e;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  padding-left: 300px;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+footer .icons {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  color: white;
+}
